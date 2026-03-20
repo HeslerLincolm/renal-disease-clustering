@@ -1,0 +1,4 @@
+algorithm,silhouette_score
+kmeans,0.3433633819098474
+hierarchical,0.32486710331438134
+dbscan,0.4920173114091606
