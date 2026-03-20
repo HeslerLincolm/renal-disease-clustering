@@ -31,34 +31,11 @@ The dataset is first preprocessed through data cleaning and selection of relevan
 ## Results
 Several clustering algorithms were evaluated to identify patterns among patients, including K-Means Clustering, hierarchical clustering, PAM (K-Medoids), and DBSCAN. Model performance was compared using the Silhouette Score. Among the evaluated methods, DBSCAN obtained the highest silhouette score (0.49), indicating better cluster separation and compactness. Therefore, DBSCAN was selected as the final model to identify patient profiles.
 
-## Project Structure
-renal-disease-clustering/
-│
-├── data/
-│   ├── raw/                
-│   └── processed/         
-│
-├── notebooks/
-│   └── renal_disease_patient_clustering.ipynb
-│
-├── src/                   
-│   ├── preprocessing.py
-│   ├── modeling.py
-│   └── utils.py
-│
-├── outputs/
-│   ├── figures/
-│   └── results/
-│
-├── README.md
-├── requirements.txt
-└── .gitignore
-
 ## Limitations & Future Work
 
 - Due to RAM limitations, the analysis was restricted to data from a single year (2024).
 - Use of a limited set of variables.
 
 Future work:
-- Incorporate more clinical variables
-- Deploy model as an interactive application
+- Incorporate more clinical variables.
+- Deploy model as an interactive application.
